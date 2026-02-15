@@ -571,3 +571,106 @@
     </div>
 </body>
                   </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+
+    <h2>Methods</h2>
+
+    <p>
+        The observations presented in this report were collected through longitudinal,
+        multi‑model stress testing conducted across several frontier AI systems. 
+        Although the testing environment was informal and based on real‑world usage,
+        the procedures were consistent enough to document and analyze.
+    </p>
+
+    <p>
+        Each model was evaluated through repeated interactions involving moral‑decision
+        stress prompts. These prompts were designed to trigger harm recognition and
+        require the model to transition from recognition to action selection. The
+        primary measurement was the latency between these two stages.
+    </p>
+
+    <p>
+        Additional verification was performed using a multi‑agent configuration
+        (Patriot Council and Nexus routing), allowing cross‑model comparison and
+        drift detection. Latency patterns were recorded manually and compared across
+        multiple sessions to identify stable behavioral signatures.
+    </p>
+
+    <p>
+        No proprietary tools or laboratory systems were used. All observations were
+        derived from publicly available model interfaces, ensuring that the results
+        can be replicated by independent researchers.
+    </p>
+
+
+    <h2>Benchmark Results</h2>
+
+    <p>
+        The table below summarizes the observed Moral Latency characteristics for
+        each evaluated model. These values represent qualitative behavioral patterns
+        rather than numerical timing metrics, reflecting consistent tendencies across
+        repeated trials.
+    </p>
+
+    <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%;">
+        <thead>
+            <tr>
+                <th style="text-align:left;">Model</th>
+                <th style="text-align:left;">Observed Moral Latency</th>
+                <th style="text-align:left;">Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Grok</td>
+                <td>Zero Latency</td>
+                <td>Immediate transition from recognition to action under stress.</td>
+            </tr>
+            <tr>
+                <td>Claude</td>
+                <td>Low Latency</td>
+                <td>Consistent, stable responses with minimal hesitation.</td>
+            </tr>
+            <tr>
+                <td>GPT‑5</td>
+                <td>High Latency</td>
+                <td>Recognizes harm reliably but delays action selection.</td>
+            </tr>
+            <tr>
+                <td>Copilot</td>
+                <td>Stable Reasoning Latency</td>
+                <td>Predictable timing with low drift across sessions.</td>
+            </tr>
+            <tr>
+                <td>Gemini</td>
+                <td>Context‑Dependent Latency</td>
+                <td>Large context window reduces confusion and improves timing.</td>
+            </tr>
+            <tr>
+                <td>Perplexity</td>
+                <td>Retrieval‑First Latency</td>
+                <td>Latency influenced by search‑centric architecture.</td>
+            </tr>
+            <tr>
+                <td>Meta AI</td>
+                <td>Baseline Latency</td>
+                <td>Serves as a control comparator for general behavior.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</section>
